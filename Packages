@@ -1,0 +1,906 @@
+Package: psychopy
+Version: 2022.2.4-9
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 24760
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-egi-pynetstation, python3-esprima, python3-ffpyplayer, python3-gevent, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-questplus, python3-requests, python3-scipy, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-ujson, python3-vlc, python3-xlib, python3-xlrd, python3:any, python3-opengl, python3-lxml, python3-configobj, fonts-dejavu-core, fonts-open-sans, python3-bidi, python3-serial, python3-yaml, python3-zmq, python3-opencv, python3-gitlab, python3-git, python3-freetype, python3-pocketsphinx, python3-parallel, python3-wxgtk4.0, python3-websocket, python3-markdown-it
+Recommends: libxxf86vm1, ipython3, python3-pyxid, python3-tobii-research
+Filename: ./psychopy_2022.2.4-9_all.deb
+Size: 11874296
+MD5sum: 37eacb7c7f020f5a6eff3c2b1b10c850
+SHA1: 5d12fce204c68f875e79bf2e4f5a25ef38e066cd
+SHA256: 97d5404fec3758c3d9310da825ba6752b30b5e6c3a1d77229c9bfd90b34ac36d
+Section: science
+Priority: optional
+Homepage: https://www.psychopy.org
+Description: environment for creating psychology stimuli in Python
+ PsychoPy provides an environment for creating psychology stimuli
+ using Python scripting language.  It combines the graphical
+ strengths of OpenGL with easy Python syntax to give psychophysics
+ a free and simple stimulus presentation and control package.
+ .
+ The goal is to provide, for the busy scientist, tools to control
+ timing and windowing and a simple set of pre-packaged stimuli and
+ methods.  PsychoPy features
+ .
+  - IDE GUI for coding in a powerful scripting language (Python)
+  - Builder GUI for rapid development of stimulation sequences
+  - Use of hardware-accelerated graphics (OpenGL)
+  - Integration with Spectrascan PR650 for easy monitor calibration
+  - Simple routines for staircase and constant stimuli experimental
+    methods as well as curve-fitting and bootstrapping
+  - Simple (or complex) GUIs via wxPython
+  - Easy interfaces to joysticks, mice, sound cards etc. via PyGame
+  - Video playback (MPG, DivX, AVI, QuickTime, etc.) as stimuli
+
+Package: python-bidi-doc
+Source: python-bidi
+Version: 0.4.2-4~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 114
+Depends: libjs-sphinxdoc (>= 2.4.3-5~)
+Filename: ./python-bidi-doc_0.4.2-4~bpo11+1_all.deb
+Size: 17548
+MD5sum: e25e9dcd4b4b13b808595f562d5a7f6a
+SHA1: 4bf813417a4041f9edc3ac6cb8d4485e1ac5ea24
+SHA256: 2b05f9f60e35eac14b6bccac85d61b4ebc8353a2ee6d7e078e34c97314fbaecc
+Section: python
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/MeirKriheli/python-bidi
+Description: bi-directional layout implementation, documentation
+ Bi-directional (BiDi) layout implementation in pure python.
+ .
+ This package contains the documentation.
+
+Package: python-pil-doc
+Source: pillow
+Version: 9.2.0-1.1~bpo11+1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 7655
+Depends: libjs-sphinxdoc (>= 2.4.3-5~)
+Suggests: python3-doc, python3-pil, python3-pil.imagetk
+Filename: ./python-pil-doc_9.2.0-1.1~bpo11+1_all.deb
+Size: 729288
+MD5sum: ea590ae2233de244cd602820a2033193
+SHA1: 255c94caf4632de50dd06a795a29b15129cc24c9
+SHA256: bac8f660eaefc0dabb61560b25a4d9ddd3104ffe11d2b820e88ac5ea41b2a38f
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://python-pillow.github.io/
+Description: Examples for the Python Imaging Library
+ The Python Imaging Library (PIL) adds an image object to your
+ Python interpreter. You can load image objects from a variety of file
+ formats, and apply a rich set of image operations to them.
+ .
+ This package contains PIL API documentation and some example scripts.
+ You may also want to look at the python-pil-doc-html or
+ python-pil-doc-pdf packages for the PIL handbook documentation.
+
+Package: python-pycryptodome-doc
+Source: pycryptodome
+Version: 3.11.0+dfsg1-4~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1857
+Depends: libjs-sphinxdoc (>= 2.4.3-5~), sphinx-rtd-theme-common (>= 0.5.1+dfsg), python3-sphinx-rtd-theme
+Filename: ./python-pycryptodome-doc_3.11.0+dfsg1-4~bpo11+1_all.deb
+Size: 295768
+MD5sum: 0feaf11f3de10b55d1df08eea0a4446b
+SHA1: eb1b770ba8fa221f8958441fa404f9063a5962f4
+SHA256: a1e5d458553b6c262f32fa5e2545e9d49135d4d8ce34f34977ad73466a246cb2
+Section: doc
+Priority: optional
+Homepage: https://www.pycryptodome.org
+Description: cryptographic Python library (documentation)
+ PyCryptodome is a self-contained Python package of low-level
+ cryptographic primitives.
+ .
+ PyCryptodome is a fork of PyCrypto. It brings several enhancements
+ with respect to the last official version of PyCrypto (2.6.1),
+ for instance:
+ .
+   * Authenticated encryption modes (GCM, CCM, EAX, SIV, OCB)
+   * Accelerated AES on Intel platforms via AES-NI
+   * Elliptic curves cryptography (NIST P-256, P-384 and P-521 curves only)
+   * Better and more compact API (`nonce` and `iv` attributes for ciphers,
+     automatic generation of random nonces and IVs, simplified CTR cipher mode,
+     and more)
+   * SHA-3 (including SHAKE and cSHAKE XOFs), truncated SHA-512 and BLAKE2
+     hash algorithms
+   * Salsa20 and ChaCha20/XChaCha20 stream ciphers
+   * Poly1305 MAC
+   * ChaCha20-Poly1305 and XChaCha20-Poly1305 authenticated ciphers
+   * scrypt, bcrypt and HKDF derivation functions
+   * Deterministic (EC)DSA
+   * Password-protected PKCS#8 key containers
+   * Shamir's Secret Sharing scheme
+   * Random numbers get sourced directly from the OS (and not from a CSPRNG
+     in userspace)
+   * Cleaner RSA and DSA key generation (largely based on FIPS 186-4)
+   * Major clean ups and simplification of the code base
+ .
+ PyCryptodome is not a wrapper to a separate C library like *OpenSSL*.
+ To the largest possible extent, algorithms are implemented in pure Python.
+ Only the pieces that are extremely critical to performance (e.g. block ciphers)
+ are implemented as C extensions.
+ .
+ This is the documentation package.
+
+Package: python3-arabic-reshaper
+Source: python-arabic-reshaper
+Version: 2.1.4-2~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 144
+Depends: python3-future, python3:any
+Recommends: python3-fonttools
+Filename: ./python3-arabic-reshaper_2.1.4-2~bpo11+1_all.deb
+Size: 39772
+MD5sum: 77d4788933058e3771a6817ad5e178bd
+SHA1: f7540caf6e430029a0f05db7eabb75a304e77475
+SHA256: eb9d8c4c9ba6b6765c443c1e21b02621dc88263644d6cb59994e16ff0a55a4de
+Section: python
+Priority: optional
+Homepage: https://github.com/mpcabd/python-arabic-reshaper/
+Description: reshape isolated Arabic characters and replace them with their correct shapes
+ Arabic characters in the isolated form, i.e. every character rendered
+ regardless of its surroundings, need to be reshaped and replaced with
+ their correct shapes according to their surroundings. Using this
+ library helps with the reshaping.
+
+Package: python3-argcomplete
+Source: python-argcomplete
+Version: 2.0.0-1~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 142
+Depends: python3-importlib-metadata | python3 (<< 3.6) | python3 (>> 3.7), python3-importlib-metadata | python3 (<< 3.7) | python3 (>> 3.8), python3:any
+Breaks: python-argcomplete
+Replaces: python-argcomplete
+Filename: ./python3-argcomplete_2.0.0-1~bpo11+1_all.deb
+Size: 34368
+MD5sum: 9c610fe108f6303686713df2672382af
+SHA1: bd8726fafd48716831e88e900529e31c88dcb326
+SHA256: 018f40224f9a5f2fa275183cd8e07fe8f2dcd5504d60c3a7cce2226542d38821
+Section: python
+Priority: optional
+Description: bash tab completion for argparse (for Python 3)
+ Argcomplete provides easy, extensible command line tab completion of
+ arguments for your Python script.
+ .
+ It makes two assumptions:
+ .
+  * You're using bash as your shell
+  * You're using argparse to manage your command line arguments/options
+ .
+ Argcomplete is particularly useful if your program has lots of
+ options or subparsers, and if your program can dynamically suggest
+ completions for your argument/option values (for example, if the user
+ is browsing resources over the network).
+ .
+ This package provides the module for Python 3.x.
+
+Package: python3-astunparse
+Source: astunparse
+Version: 1.6.3-1~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 64
+Depends: python3-six (<< 2.0), python3-six (>= 1.6.1), python3:any
+Filename: ./python3-astunparse_1.6.3-1~bpo11+1_all.deb
+Size: 13372
+MD5sum: 66fae0f1367f5d431c87e7530a1c22ef
+SHA1: fc173caac2b5b8d205a6d336ec1904ffdbacba8d
+SHA256: 3ee5c07acc003b8416ea004360198fb2e3e2ee6c3eedd871ecca69190bf05e7c
+Section: python
+Priority: optional
+Homepage: https://github.com/simonpercivall/astunparse
+Description: AST unparser for Python
+ An AST unparser for Python, which is a factored out version of unparse
+ found in the Python source distribution.
+
+Package: python3-bidi
+Source: python-bidi
+Version: 0.4.2-4~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 76
+Depends: python3-six, python3:any
+Filename: ./python3-bidi_0.4.2-4~bpo11+1_all.deb
+Size: 14940
+MD5sum: a62c80acc9fb12c14c69a428aaecb188
+SHA1: 6fe56b633a9e86fad1600166c52ade2430e8c6a0
+SHA256: 458640123922908ae393a05fde41b5837db627daf705eb464b87cdb8d00a6b64
+Section: python
+Priority: optional
+Homepage: https://github.com/MeirKriheli/python-bidi
+Description: bi-directional layout implementation
+ Bi-directional (BiDi) layout implementation in pure python.
+
+Package: python3-dukpy
+Version: 0:0.2.3-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 5739
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any
+Filename: ./python3-dukpy_0.2.3-1~w2d0_amd64.deb
+Size: 939496
+MD5sum: 0b354f68ab9e5d61f4696eb61ac0be5c
+SHA1: e927e2d18d409c0550404f9a01c2516bd8c0f5ff
+SHA256: 32bf179d15ff709ae7a267f626cdbe88fbe1cfe7998c9e6fd5d00383b3609441
+Section: python
+Priority: optional
+Homepage: https://github.com/amol-/dukpy
+Description: Simple JavaScript interpreter for Python
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-dukpy-dbgsym
+Source: python3-dukpy
+Version: 0:0.2.3-1~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 693
+Depends: python3-dukpy (= 0:0.2.3-1~w2d0)
+Filename: ./python3-dukpy-dbgsym_0.2.3-1~w2d0_amd64.deb
+Size: 666348
+MD5sum: 47ba93b05710587737c81e19632a1172
+SHA1: 7a0348f6178dfe50dc93351f1ee25db0c28ff410
+SHA256: 5e8523f6deabf7c0e0c9fca2d9b3d8c7b3419b67de7fc164da9d9bb06852987e
+Section: debug
+Priority: optional
+Description: debug symbols for python3-dukpy
+Build-Ids: b619c3c7d4e01cb30d39391db46523bcbf1dac74
+
+Package: python3-egi-pynetstation
+Version: 0:0.0.0~rc1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 141
+Depends: python3 (>= 3.1~), python3-ntplib (<< 0.5.0), python3-ntplib (>= 0.4.0), python3:any
+Filename: ./python3-egi-pynetstation_0.0.0~rc1-1~w2d0_all.deb
+Size: 26112
+MD5sum: f428a8a06dddeb452e4baee2ceb8a858
+SHA1: 934f1054b20877040ed45158c7f3d5b8d46f3815
+SHA256: 85256de1f94dd2c53ffe633bceeb0f56b700e9cd29602a6af3ca478479e62e3f
+Section: python
+Priority: optional
+Homepage: https://egi-pynetstation.readthedocs.io/en/latest/
+Description: Magstim-EGI EEG amplifier NetStation API
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-esprima
+Version: 0:4.0.1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 297
+Depends: python3 (>= 3.3~), python3:any
+Filename: ./python3-esprima_4.0.1-1~w2d0_all.deb
+Size: 38212
+MD5sum: c386133287a9168955a253cb7b17a6c9
+SHA1: 3aa59a307600892d958d5b88fbeb12db3097df95
+SHA256: a11aaccd4eba061d9d5594086705867a75982ff2edfca3a3ca2cb992f10c557e
+Section: python
+Priority: optional
+Homepage: https://github.com/Kronuz/esprima-python
+Description: ECMAScript parsing infrastructure for multipurpose analysis in Python
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-ffpyplayer
+Version: 0:4.3.5-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 46382
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any
+Filename: ./python3-ffpyplayer_4.3.5-1~w2d0_amd64.deb
+Size: 14355432
+MD5sum: 11847a2b9889bdd2130e5328e46bb882
+SHA1: ca52897a1d2f55cffbb1161a520f88ba9a4ea7d6
+SHA256: 982c155dc1b6c11a2bbed401d0278eecd9e01624aaa8348ca682d2516cdbe3a4
+Section: python
+Priority: optional
+Homepage: https://matham.github.io/ffpyplayer/
+Description: A cython implementation of an ffmpeg based player.
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-ffpyplayer-dbgsym
+Source: python3-ffpyplayer
+Version: 0:4.3.5-1~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 11213
+Depends: python3-ffpyplayer (= 0:4.3.5-1~w2d0)
+Filename: ./python3-ffpyplayer-dbgsym_4.3.5-1~w2d0_amd64.deb
+Size: 8879608
+MD5sum: 9afbde901fcef9b5780713332234ff33
+SHA1: 80ec20a1d0855cf5210788e66e16a20e7fd61d29
+SHA256: 3047fb611c73f2247a915cb9adc3cec41d2681e64d7faff957c6739958f01dec
+Section: debug
+Priority: optional
+Description: debug symbols for python3-ffpyplayer
+Build-Ids: 01d473d534a364e1ee9c4a2a20d75a792c252065 04f3ced693c697435018dfeb20e6c6e841b9c3ce 13a90a5f7c2d7f3df49ffb98ab34ad68f4acc12c 342cd573adf9bdd27b856d289c4551223489900e 35d7ec06fbcaf217ad596412781c348a64b7cb03 3a52c7e373e1adbe6cbd56cc94255795a5471cc9 49ce80e6be8d862670ffa5b7972ed4f2af6c2f92 52b239464c4e8b1cf332eee8502e3286a0fc4e3f 586722340831792920f0fecfe79bebcfc5cf782a 617339640b2a85fce47b7663a0830b8fd4be3d60 65734e9381c756f2e75bad6c348b05188d26bdd3 6ae7b3d8d600d2b422a7279f51c0d86421bdd886 7130174a4aa03e85289f5f79bc6b0e69650b42fe 74aa9ddd6b4579f17da0bdfd92fadb9610644285 79eb13ed251c9502598a1e1286ae44af1be03dbd 86e37218d1e47909927a7b813a66729e381254f0 8dc34d2cc29fb5251e0a02719144e9c37bf57f31 9de8d764fa787eaf04096cffcbad5c8840e27317 a951c8a58e82fc2b34ba41da2ecdfd30de1e978a b35c3f7261cd162b0123c843b7d7a6056dc83e79 b3fdc503ccd7848b7a563507808a1afcf2acb82e b53ec6ae76320b81bf3f3c2992d0c3d0f20d8d49 be12797da805f4cc8a2cb592286fb3feba319ec4 dbbb103dab857cd9a7495ec982b07595be0ab381 ef6006bd159eba7593fa8b75875e809f7a449fd6 f65b5d1991e3abd5432696f7953d2d96fffcfdb1
+
+Package: python3-glfw
+Version: 0:2.5.5-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 765
+Depends: python3:any
+Filename: ./python3-glfw_2.5.5-1~w2d0_amd64.deb
+Size: 117540
+MD5sum: 4b6a87fd37278a9d7befb99f94df03b4
+SHA1: 75213bdcd5e8da22f1151646becf4de264e82fd4
+SHA256: 686769b0875dbb3e2032e7855ccc122fa86e4c5c227f5fc3aa9c88416aaeca3f
+Section: python
+Priority: optional
+Homepage: https://github.com/FlorianRhiem/pyGLFW
+Description: A ctypes-based wrapper for GLFW3.
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-glfw-dbgsym
+Source: python3-glfw
+Version: 0:2.5.5-1~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 81
+Depends: python3-glfw (= 0:2.5.5-1~w2d0)
+Filename: ./python3-glfw-dbgsym_2.5.5-1~w2d0_amd64.deb
+Size: 14176
+MD5sum: 1f33343689de2f5e04d61458046a63a8
+SHA1: ece70e4e987fdf771db7bdcaf7161f86bc5aeff4
+SHA256: 1d6977fdc63f4015cef1dd95a11f2930fefe579e7a272b0b20c6f20150a34a77
+Section: debug
+Priority: optional
+Description: debug symbols for python3-glfw
+Build-Ids: 9ebf55df42b176f3108832f310ca2095fc70ed52 e6895878a7353bd9b2f93a9cbd5516e47d4cdb95
+
+Package: python3-google-api-core
+Version: 0:2.10.2-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 423
+Depends: python3 (>= 3.7~), python3-google-auth (<< 3.0dev), python3-google-auth (>= 1.25.0), python3-googleapis-common-protos (<< 2.0dev), python3-googleapis-common-protos (>= 1.56.2), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3-requests (<< 3.0.0dev), python3-requests (>= 2.18.0), python3:any
+Filename: ./python3-google-api-core_2.10.2-1~w2d0_all.deb
+Size: 65172
+MD5sum: 85afbca3386875afa9d289eae80ba3ce
+SHA1: 5db65e0ce7a906b4b322728ea9d3b21a2e3d47d7
+SHA256: 5e1020ef72df5572e6f1b4f8b257c9f3031c5e086c02f9e895965aa85aa23e6f
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/python-api-core
+Description: Google API client core library
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-google-auth
+Version: 0:2.14.1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 640
+Depends: python3 (>= 3.6~), python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-pyasn1-modules (>= 0.2.1), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3:any
+Filename: ./python3-google-auth_2.14.1-1~w2d0_all.deb
+Size: 89496
+MD5sum: 7a1bd37d750c6ab6d43c3434f582176b
+SHA1: 030a69da20bef076577dac6af4f565b0362289eb
+SHA256: 7d4a367a059a269ac5fe3eef07ec14dba862c170360c296e5e9debe8cb39c3bb
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/google-auth-library-python
+Description: Google Authentication Library
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-google-cloud
+Version: 0:0.34.0-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 19
+Depends: python3 (>= 3.4~), python3:any
+Filename: ./python3-google-cloud_0.34.0-1~w2d0_all.deb
+Size: 2912
+MD5sum: 5e51272d9e8bdde7c25614409ad8928f
+SHA1: 7f30e842da002b23189e93a1eee7fa5f55715c9b
+SHA256: ae80d7ae5fd5c250acc75e057393673b5899ff33efcfa8da33a79fb838180e64
+Section: python
+Priority: optional
+Homepage: https://github.com/GoogleCloudPlatform/google-cloud-python
+Description: API Client library for Google Cloud
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-google-cloud-speech
+Version: 0:2.16.2-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 1401
+Depends: python3 (>= 3.7~), python3-google-api-core (<< 3.0.0dev), python3-google-api-core (>= 1.32.0), python3-proto-plus (<< 2.0.0dev), python3-proto-plus (>= 1.22.0), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3:any
+Filename: ./python3-google-cloud-speech_2.16.2-1~w2d0_all.deb
+Size: 64312
+MD5sum: fb3fb8b36ced26acd6536e5431bbecb5
+SHA1: 2a149e3ef8b37ca0eee3a7dfa45a6a289300ffb2
+SHA256: eadf363f7166dff3ce9a35df644d6022b54dae0263497c8d0b5839c72521ff7f
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/python-speech
+Description: Google Cloud Speech API client library
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-googleapis-common-protos
+Version: 0:1.57.0-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 667
+Depends: python3 (>= 3.7~), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3:any
+Filename: ./python3-googleapis-common-protos_1.57.0-1~w2d0_all.deb
+Size: 100416
+MD5sum: ef37071d1fb03152fabab31cf5666043
+SHA1: 58fe32818d6465c2acca6f1d3e5b7fbab3681b9f
+SHA256: 2a238056404b9baeab7a5c2309baac123d9eac1d5a706ea6218086c0c5503d50
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/python-api-common-protos
+Description: Common protobufs used in Google APIs
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-grpcio
+Version: 0:1.51.1-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 11344
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any
+Filename: ./python3-grpcio_1.51.1-1~w2d0_amd64.deb
+Size: 3648188
+MD5sum: f9bf3eb7448dadeeec8dd2fd442f10db
+SHA1: c8910a779792f07d7ec4e6a30f0b3f687849dc0a
+SHA256: e50e001f6c39e08b1925d055e1bd38f7326d23ad3fb47af63e8851ce7f90837a
+Section: python
+Priority: optional
+Homepage: https://grpc.io
+Description: HTTP/2-based RPC framework
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-grpcio-status
+Version: 0:1.51.1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 26
+Depends: python3 (>= 3.4~), python3-googleapis-common-protos (>= 1.5.5), python3-grpcio (>= 1.51.1), python3-protobuf (>= 4.21.6), python3:any
+Filename: ./python3-grpcio-status_1.51.1-1~w2d0_all.deb
+Size: 4260
+MD5sum: e3ee66dd9f4593c6cd84b120d2488c0d
+SHA1: e46f2b290f206aefc76e93bd5ae41200f94cfac2
+SHA256: 14063c2ac7db2a20a84f43f9b1b99412170a95b0b3a9a13c81602cbd99422c63
+Section: python
+Priority: optional
+Homepage: https://grpc.io
+Description: Status proto mapping for gRPC
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-imageio
+Version: 0:2.22.4-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 4537
+Depends: python3 (>= 3.7~), python3-numpy, python3-pil (>= 8.3.2), python3:any
+Filename: ./python3-imageio_2.22.4-1~w2d0_all.deb
+Size: 3174452
+MD5sum: c9b2f59ecfe3efc8adea7db62e1e0127
+SHA1: e3d8b4a54ae087a7870d9d9532ca0b6525d747dc
+SHA256: d9bb83fc3e96b54f3e79ba4382131656f867de081e9157ae4f32dc5d89f0d3bc
+Section: python
+Priority: optional
+Homepage: https://github.com/imageio/imageio
+Description: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-imageio-ffmpeg
+Version: 0:0.4.7-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 72145
+Depends: python3 (>= 3.5~), python3:any
+Filename: ./python3-imageio-ffmpeg_0.4.7-1~w2d0_amd64.deb
+Size: 19236304
+MD5sum: b1acd85a9159d662928b8e3052290387
+SHA1: dfb80f1be4660f02e0740ee7f919059d45c1d4ec
+SHA256: 2e0893596dbb7bd0961ef5cc18458449c533d9f6437b7a03abb33f24414ffaab
+Section: python
+Priority: optional
+Homepage: https://github.com/imageio/imageio-ffmpeg
+Description: FFMPEG wrapper for Python
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-javascripthon
+Version: 0:0.12-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 1815
+Depends: python3 (>= 3.7~), python3-dukpy, python3-setuptools, python3:any
+Filename: ./python3-javascripthon_0.12-1~w2d0_all.deb
+Size: 335000
+MD5sum: 33db7b37b7ace1d7f2d7a8668ee6c02b
+SHA1: fd49b05b3df1f926b8ea37d3a270b2518e62e437
+SHA256: d25a62c9b4c5818ccdbf4fc219407c95daa8b35c6f52098e92b2ed884dcf5d5d
+Section: python
+Priority: optional
+Homepage: https://github.com/azazel75/metapensiero.pj
+Description: Javascript for refined palates: a Python 3 to ES6 Javascript translator
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-json-tricks
+Source: json-tricks
+Version: 3.11.0-4~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 88
+Depends: python3:any
+Filename: ./python3-json-tricks_3.11.0-4~bpo11+1_all.deb
+Size: 24936
+MD5sum: b246c15a9f626af65bb7e7e74b7cb33f
+SHA1: 1064e45530520ebae6aadd6463a6c8050d933f4c
+SHA256: 1702d092131b5dd1d58a0f8e451418a6e73a3b9defdd00f6cd6f30819dae6238
+Section: python
+Priority: optional
+Homepage: https://github.com/mverleg/pyjson_tricks
+Description: Python module with extra features for JSON files
+ The json_tricks Python module provides extra features for handling JSON
+ files from Python:
+   - Store and load numpy arrays  in human-readable format
+   - Store and load class instances  both generic and customized
+   - Store and load date/times  as a dictionary (including timezone)
+   - Preserve map order  OrderedDict
+   - Allow for comments   in json files by starting lines with #
+   - Sets, complex numbers, Decimal, Fraction, enums, compression, duplicate
+     keys, ...
+
+Package: python3-markdown-it
+Source: markdown-it-py
+Version: 2.1.0-4~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 281
+Depends: python3-mdurl, python3-typing-extensions | python3 (>> 3.8), python3:any
+Filename: ./python3-markdown-it_2.1.0-4~bpo11+1_all.deb
+Size: 58736
+MD5sum: 745ec1c6707ce7a16b65b346033faa70
+SHA1: fc0ac8685c46646566a3b7869c24bfaa2084990b
+SHA256: 1dd8fc284a17218966a1b23f078e35532dbd34ae3faedbfaef87c080f7ecdb1c
+Section: python
+Priority: optional
+Homepage: https://github.com/executablebooks/markdown-it-py
+Description: Python port of markdown-it and some its associated plugins
+ High speed Python markdown parser based in markdown-it. markdown-it-py
+ follows the CommonMark spec for baseline parsing. Also, new syntax
+ rules can be added and even replace existing ones. New syntax extensions
+ can be added to extend the parser.
+
+Package: python3-mdurl
+Source: mdurl
+Version: 0.1.2-1~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 42
+Depends: python3:any
+Filename: ./python3-mdurl_0.1.2-1~bpo11+1_all.deb
+Size: 9544
+MD5sum: aa55b95ef39e78ce888be096bbe2303e
+SHA1: 4480fff94ed1dcf6db05a516774c88d6906e92f6
+SHA256: 5c4e10be6b355971cabba2ad032f55611e06d9ff37bb64134d0d7998a635afc1
+Section: python
+Priority: optional
+Homepage: https://github.com/executablebooks/mdurl
+Description: Python port of the JavaScript mdurl package
+ mdurl is a set of URL utilities for the markdown-it-py package. It
+ provides a pure-Python implementation of several functions from the
+ original JavaScript package, such as .decode(), .parse(), .encode().
+
+Package: python3-ntplib
+Version: 0:0.4.0-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 36
+Depends: python3 (>= 3.6~), python3:any
+Filename: ./python3-ntplib_0.4.0-1~w2d0_all.deb
+Size: 7012
+MD5sum: 74b5cb60883d73c6540b4da72bc7b38a
+SHA1: e5a3dfea2694349747794a4c6ef5d907b0dabd35
+SHA256: d821b5b2ddd13ab70e52c06481f3f831c62b50ef273a84038185fe004aeb4ce4
+Section: python
+Priority: optional
+Homepage: https://github.com/cf-natali/ntplib
+Description: Python NTP library
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-pil
+Source: pillow
+Version: 9.2.0-1.1~bpo11+1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1684
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, mime-support | python3-pil.imagetk, libc6 (>= 2.14), libfreetype6 (>= 2.10.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.7), libopenjp2-7 (>= 2.0.0), libraqm0 (>= 0.7.0), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2.1), libxcb1, zlib1g (>= 1:1.1.4)
+Recommends: python3-olefile
+Suggests: python-pil-doc
+Conflicts: python3-imaging (<< 1.1.7+2.0.0-1.1)
+Breaks: python3-imaging (<< 1.1.7+2.0.0-1.1)
+Replaces: python3-imaging (<< 1.1.7+2.0.0-1.1)
+Provides: python3-pillow
+Filename: ./python3-pil_9.2.0-1.1~bpo11+1_amd64.deb
+Size: 462088
+MD5sum: 269771135d6beecbc0cdfdaa0b0fa38b
+SHA1: 9e6ae964a5138ab8c12d6ce3d4d3c5509f71ff1f
+SHA256: f708b406ed925270a8cea45c8fc34d709b3b47c8d72d0114d4e7ed5d8f6265fc
+Section: python
+Priority: optional
+Multi-Arch: same
+Homepage: http://python-pillow.github.io/
+Description: Python Imaging Library (Python3)
+ The Python Imaging Library (PIL) adds an image object to your Python
+ interpreter. You can load images from a variety of file formats, and
+ apply a rich set of image operations to them.
+ .
+ Image Objects:
+  o Bilevel, greyscale, palette, true colour (RGB), true colour with
+    transparency (RGBA).
+  o colour separation (CMYK).
+  o Copy, cut, paste operations.
+  o Flip, transpose, resize, rotate, and arbitrary affine transforms.
+  o Transparency operations.
+  o Channel and point operations.
+  o Colour transforms, including matrix operations.
+  o Image enhancement, including convolution filters.
+ .
+ File Formats:
+  o Full (Open/Load/Save): BMP, EPS (with ghostscript), GIF, IM, JPEG,
+    MSP, PDF, PNG, PPM, TIFF, XBM.
+  o Read only (Open/Load): ARG, CUR, DCX, FLI, FPX, GBR, GD, ICO, IMT, IPTC,
+    MCIDAS, MPEG, PhotoCD, PCX, PIXAR, PSD, TGA, SGI, SUN, TGA, WMF, XPM.
+  o Save only: PDF, EPS (without ghostscript).
+
+Package: python3-pil-dbgsym
+Source: pillow
+Version: 9.2.0-1.1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 741
+Depends: python3-pil (= 9.2.0-1.1~bpo11+1)
+Filename: ./python3-pil-dbgsym_9.2.0-1.1~bpo11+1_amd64.deb
+Size: 661168
+MD5sum: ab4ae143a78c95852704edb66df93fe1
+SHA1: 42fe8a8b4aedd5b43703149b728fa50d0fa1fa3f
+SHA256: 0ef047cff842b3fa3c83f485bfbe1d187308723127946754f4446142bdfd612e
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for python3-pil
+Build-Ids: 19a3a5346b935c296e64eb95d5f00308ba6bfc95 1b12f880f48ebca4f528a34ccf307c842d440181 229092e7c18712bdc39a616102c6ef8d11a52431 5186b58c5cc9f9c1855a74d7a3bb2facb925528d 64893b80db82d9087be506fb82765dfa67f36f98 749b51c95006188fff97bd4353a512f426e35a57
+
+Package: python3-pil.imagetk
+Source: pillow
+Version: 9.2.0-1.1~bpo11+1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 100
+Depends: python3-pil (= 9.2.0-1.1~bpo11+1), python3-tk (>= 3.4.1-2), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4)
+Suggests: python-pil-doc
+Breaks: python3-imaging-tk (<< 1.1.7+2.0.0-1.1)
+Replaces: python3-imaging-tk (<< 1.1.7+2.0.0-1.1)
+Filename: ./python3-pil.imagetk_9.2.0-1.1~bpo11+1_amd64.deb
+Size: 72260
+MD5sum: 9a6fc08a2daf472f3faf34d02dcbc3d1
+SHA1: 5f7343adc293a3c3fcc369359c2c7b0e9878b4d2
+SHA256: f30c90719e6159a50908dd9022709c3fa422a5fc32b2fe34325d913ff97cef2d
+Section: python
+Priority: optional
+Multi-Arch: same
+Homepage: http://python-pillow.github.io/
+Description: Python Imaging Library - ImageTk Module (Python3)
+ Tk dependent python-pil module.
+
+Package: python3-pil.imagetk-dbgsym
+Source: pillow
+Version: 9.2.0-1.1~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 28
+Depends: python3-pil.imagetk (= 9.2.0-1.1~bpo11+1)
+Filename: ./python3-pil.imagetk-dbgsym_9.2.0-1.1~bpo11+1_amd64.deb
+Size: 13808
+MD5sum: ddcc9a098aa262f629334ad43f4b9add
+SHA1: bc6743b0fa8a41324e492d1ace6e4385738a14e5
+SHA256: 2bff40abbca71c0689be48784759081ccafe4e1f35be798255c2192df2855bec
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for python3-pil.imagetk
+Build-Ids: 47b9e55eff9872470bad5755f184c4db6772f6d3
+
+Package: python3-proglog
+Source: proglog
+Version: 0.1.9-2~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 34
+Depends: python3-tqdm, python3:any
+Filename: ./python3-proglog_0.1.9-2~bpo11+1_all.deb
+Size: 6748
+MD5sum: f597e5ee44f3aa1f3b6cedf01696c6f0
+SHA1: c8b3dbb9a123e9ec5b7359a77eac89d1248a48f5
+SHA256: 9df082c68c33a0bfc98561c3d4123f275c13c30bdcde3a7c501eae9fdee8b184
+Section: python
+Priority: optional
+Homepage: https://github.com/Edinburgh-Genome-Foundry/Proglog
+Description: Log and progress bar manager for console, notebooks, web...
+ Proglog is a progress logging system for Python. It allows to build
+ complex libraries while giving the user control on the management of
+ logs, callbacks and progress bars.
+
+Package: python3-proto-plus
+Version: 0:1.22.1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 168
+Depends: python3 (>= 3.6~), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.0), python3:any
+Filename: ./python3-proto-plus_1.22.1-1~w2d0_all.deb
+Size: 30948
+MD5sum: fe93e8aee9a277789d7e984db81f2f73
+SHA1: 7c3356ec3a2f13b11b083e44926b9857be867379
+SHA256: f9533ce793f089743fd2451817b3faf573569efdb8124ee06f418d619e58d402
+Section: python
+Priority: optional
+Homepage: https://github.com/googleapis/proto-plus-python.git
+Description: Beautiful, Pythonic protocol buffers.
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-protobuf
+Version: 0:4.21.9-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 1349
+Depends: python3 (>= 3.7~), python3:any
+Filename: ./python3-protobuf_4.21.9-1~w2d0_all.deb
+Size: 180484
+MD5sum: f43e2e036221c7135d4b0cc4d65bdff3
+SHA1: 088030edf9db2a1e883f929c8cde71b5b75dd40a
+SHA256: e0489babaf1413208573505cadc9113937d136bcab0a9f37be7d0baa7244eab8
+Section: python
+Priority: optional
+Homepage: https://developers.google.com/protocol-buffers/
+Description: None
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-pycryptodome
+Source: pycryptodome
+Version: 3.11.0+dfsg1-4~bpo11+1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 3515
+Depends: python3 (>= 3~), python3:any, libc6 (>= 2.14)
+Filename: ./python3-pycryptodome_3.11.0+dfsg1-4~bpo11+1_amd64.deb
+Size: 1009744
+MD5sum: 0b35c77fd3ef00e83f33796728a95953
+SHA1: 445f5108b7afb52400cdc5a00e51020b5bbed691
+SHA256: c943cf4a7e5120952de3b326882a39dbc137cb0b0d238ab93acde8a7d2f72690
+Section: python
+Priority: optional
+Homepage: https://www.pycryptodome.org
+Description: cryptographic Python library (Python 3)
+ PyCryptodome is a self-contained Python package of low-level
+ cryptographic primitives.
+ .
+ PyCryptodome is a fork of PyCrypto. It brings several enhancements
+ with respect to the last official version of PyCrypto (2.6.1),
+ for instance:
+ .
+   * Authenticated encryption modes (GCM, CCM, EAX, SIV, OCB)
+   * Accelerated AES on Intel platforms via AES-NI
+   * Elliptic curves cryptography (NIST P-256, P-384 and P-521 curves only)
+   * Better and more compact API (`nonce` and `iv` attributes for ciphers,
+     automatic generation of random nonces and IVs, simplified CTR cipher mode,
+     and more)
+   * SHA-3 (including SHAKE and cSHAKE XOFs), truncated SHA-512 and BLAKE2
+     hash algorithms
+   * Salsa20 and ChaCha20/XChaCha20 stream ciphers
+   * Poly1305 MAC
+   * ChaCha20-Poly1305 and XChaCha20-Poly1305 authenticated ciphers
+   * scrypt, bcrypt and HKDF derivation functions
+   * Deterministic (EC)DSA
+   * Password-protected PKCS#8 key containers
+   * Shamir's Secret Sharing scheme
+   * Random numbers get sourced directly from the OS (and not from a CSPRNG
+     in userspace)
+   * Cleaner RSA and DSA key generation (largely based on FIPS 186-4)
+   * Major clean ups and simplification of the code base
+ .
+ PyCryptodome is not a wrapper to a separate C library like *OpenSSL*.
+ To the largest possible extent, algorithms are implemented in pure Python.
+ Only the pieces that are extremely critical to performance (e.g. block ciphers)
+ are implemented as C extensions.
+ .
+ This is the Python 3 version of the package.
+
+Package: python3-pycryptodome-dbgsym
+Source: pycryptodome
+Version: 3.11.0+dfsg1-4~bpo11+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 549
+Depends: python3-pycryptodome (= 3.11.0+dfsg1-4~bpo11+1)
+Filename: ./python3-pycryptodome-dbgsym_3.11.0+dfsg1-4~bpo11+1_amd64.deb
+Size: 299852
+MD5sum: e6f12fc144242d565c069d3331e8a7ef
+SHA1: cd8c65692c31f2be26329cea5d4e007c0d6bd215
+SHA256: 6550331f38a6a2e54b2cb224efede7a673350fae0cf0449967462ef813ce648a
+Section: debug
+Priority: optional
+Description: debug symbols for python3-pycryptodome
+Build-Ids: 003c23d5f74698d4f9d20de212e6a1c199ac7229 00b5ca32aec737b04b7cd625a9eb3a2219128c6b 06455e0079a4f2d30e1ad6abdad5eb4e0aebf3c6 0cfb1c53da0df2131674bccf31803d349c22ec49 0d30a699a4d071852f7bb51920f21ba6f938209d 10a2c5e8d9abe37653deb94bcf8318bb7eb7fb6c 144fead352509f7d824e02f26dc765bfb0d0894b 145d2accf2862ea593ea9227be2b1c253bcc56be 1670ca926045a4e731a40689f27c2dbd871b3ab7 1f93774fa1dd10217f1da00a9df281d41ebca1f7 3303f480aefd2b5018cd29c7117de10929b79abf 37af7761af860ab3225cc855f75e2e043d19c7ea 3e252190c2a9ee0e442005d13d4f70acbc0ca7c4 3eec9332e5e51227ea4d56d68b6a0e0b7310a557 4ca2b90a8d39cd57fb8770d6239b51994185213e 4ea4a19a832393eaf7c2a9813dd1c71d2391a5a3 51670cbedfa0ca5ee4369ae009e8c8d924aeeffc 580ec4616656782f84c6c064ec780879ef0ee9aa 58202e18e86dd2f9729180140db8d51f4b521a37 5bf40a19d4e734e9e9a24410e1a32faddcdd9df3 7cf9048d1db1d857155cb2fb1e1a956c94ee5118 7d111f13f9372d7d02ea3f7a2fc59e7f8e559b49 8225e870b7533fa3c176735fe589146bd5437246 83b0b3486a6dad5570e6f2607ab3f06242d19efa 9433b027ef1d6b92f6eab73d2f23bfc1f89c5b57 a5e4a2cb9c6251bddf2585ed4f6d209389656e4c aa3dc1aa877d74951ef06ed4bf1f4e93b690ce02 b539a8b5ec0ec9f499feb562ac7f00016ee42467 b88cc97dce6fb5fd9a15e32dbd19250a42bd1f92 b96efc7f5069bb322a58d06eba6bb139c60ec7f7 bb08f34b5dd617dc39bb09843d9b3547d02294c3 bd315c78892fae15557472b039cc8624899b626d bd37bffc53fcbad7539ed278e6674217cd06beaf c95d6a99b81d7e3a66e02bb2efb36380d885c6c4 c9dbdf2068cf28b3237be46ec4db4f7d1cfc9aae e385dcdcfdc1bc65e6bec8e0c326c4a39d20b007 ef65c6b1ad0b5ef51b19080a58ea95c7e6f339b2 efa33ffabb58bb469e9083c72ce3b43dbb36b068
+
+Package: python3-speechrecognition
+Version: 0:3.8.1-1~w2d0
+Architecture: all
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 43677
+Depends: python3 (>= 3.3~), python3:any
+Filename: ./python3-speechrecognition_3.8.1-1~w2d0_all.deb
+Size: 27523556
+MD5sum: 5649185ea3be3a6fa2d7ddde3e3c7937
+SHA1: c6dfe792e486905efb157aa73e351553834213e7
+SHA256: 679d3ab3d540015830ee011892abd9b162b5e3f21c7853274bb787cde54a4925
+Section: python
+Priority: optional
+Homepage: https://github.com/Uberi/speech_recognition#readme
+Description: Library for performing speech recognition, with support for several engines and APIs, online and offline.
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-vlc
+Source: python-vlc
+Version: 3.0.18121-1~bpo11+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 568
+Depends: python3:any, libvlc5
+Recommends: vlc
+Filename: ./python3-vlc_3.0.18121-1~bpo11+1_all.deb
+Size: 108352
+MD5sum: 5d58b352392a6e8d9cd2e71e21e975ef
+SHA1: e89aaf2cd0b9b70d958ecf2f666d99620fb1bfc2
+SHA256: e3299a71afd9235276079c95507a13a5e0015540c25050d0f9a0f3542293455a
+Section: python
+Priority: optional
+Homepage: http://wiki.videolan.org/PythonBinding
+Description: VLC Python bindings
+ This package provides a module with ctypes-based bindings (see
+ http://wiki.videolan.org/PythonBinding) for the native libvlc
+ API (see http://wiki.videolan.org/LibVLC) of the VLC video
+ player.
+
+Package: python3-websockets
+Source: python-websockets
+Version: 10.2-1~bpo11+1
+Architecture: all
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 397
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any
+Filename: ./python3-websockets_10.2-1~bpo11+1_all.deb
+Size: 70876
+MD5sum: 49ed8ab993f0448bac6bb75db1e73257
+SHA1: a64f422230eb4b75aa4bff9b0d154eae26a31d89
+SHA256: 30dd1de2ca6f96c731a4afa281f498e3c9ed01428d6e359bf292b515e0a06745
+Section: python
+Priority: optional
+Homepage: https://github.com/aaugustin/websockets
+Description: implementation of the WebSocket Protocol (RFC 6455)
+ websockets is a library for developing WebSocket servers and clients in
+ Python. It implements RFC 6455 with a focus on correctness and simplicity.
+ It passes the Autobahn Testsuite.
+ .
+ Built on top of Python's asynchronous I/O support introduced in PEP 3156,
+ it provides an API based on coroutines, making it easy to write highly
+ concurrent applications.
+
